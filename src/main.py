@@ -42,7 +42,7 @@ def init_chemical_field(sigma, S, radius, position):
             sigma.itemset(i, 0.1)
     return sigma, S
 
-def integrate(phi, sigma, S, tstep, dt, **kwargs):
+def integrate(phi, sigma, S, tstep, dt, h, **kwargs):
     """
       integrate the order parameter phi and the chemical field sigma on time
     :param phi: order parameter 
@@ -54,7 +54,7 @@ def integrate(phi, sigma, S, tstep, dt, **kwargs):
     :return: 
     """
     # five point stencil - https://en.wikipedia.org/wiki/Five-point_stencil
-    stencil = (1.0 / (12.0 * dL * dL)) * np.array(
+    stencil = (1.0 / (12.0 * h * h)) * np.array(
         [[0, 0, -1, 0, 0],
          [0, 0, 16, 0, 0],
          [-1, 16, -60, 16, -1],
@@ -90,7 +90,7 @@ if __name__ = '__main__':
 
     phi = init_tumor(phi, radius=20, position=L/2) # initializing the tumor field
     sigma, S = init_chemical_field(sigma, S, radius=20, position=L/2) # initializing the nutrient field and sources
-    integrate(phi, sigma, S, tstep=10000, dt=0.01, lambda_=0.3, epsilon=30,
+    integrate(phi, sigma, S, tstep=10000, dt=0.01, h=1., lambda_=0.3, epsilon=30,
           A=0.1, gamma=0.0, tau=5., chi=0.0, delta=0.) # time integration
 
 
