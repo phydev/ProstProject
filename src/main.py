@@ -90,7 +90,7 @@ if __name__ = '__main__':
 
     phi = init_tumor(phi, 20, L/2)
     sigma, S = init_chemical_field(sigma, S, 20, L/2)
-    integrate(phi, sigma, S, tstep=10000, dt=0.01, lambda_=0.3, epsilon=lambda_*100,
+    integrate(phi, sigma, S, tstep=10000, dt=0.01, lambda_=0.3, epsilon=30,
           A=0.1, gamma=0.0, tau=5., chi=0.0, delta=0.)
 
 
