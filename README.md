@@ -11,12 +11,12 @@
 ## Logbook
 
 ### 1st day:
-- Laplace Operator
-- Euler's Method for time integration
-- Presented and implemented the phase-field basic model
+- Laplace Operator;
+- Euler's Method for time integration;
+- Presented and implemented the phase-field basic model.
 
 ### 2nd day:
-- Implemented the full model
+- Implemented the complete model including the nutrient field.
 
 ### 3rd day:
-- Search the right set of parameters to reproduce the paper results.
+- Search for the right set of parameters in order to reproduce the paper results.
