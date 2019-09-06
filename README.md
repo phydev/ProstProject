@@ -3,11 +3,7 @@
 
 *Modelling prostate cancer growth using a phase-field model.*
 
-**Research team**: Oliver, Hygor, Diana, Carlos & Milan
-
-**Supervisor**: Rui Travasso
-
-**Assistant**: Mauricio Moreira
+**Research team**: Oliver, Hygor, Diana, Carlos, Milan, Mauricio & Rui.
 
 ## Files:
 - src/main.py - full numpy/scipy implementation
