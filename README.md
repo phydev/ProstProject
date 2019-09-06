@@ -14,3 +14,7 @@
 - Laplace Operator
 - Euler's Method for time integration
 - Presented and implemented the phase-field basic model
+### 2nd day:
+- Implemented the full model
+### 3rd day:
+- Search the right set of parameters to reproduce the paper results.
