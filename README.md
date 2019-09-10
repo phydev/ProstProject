@@ -20,3 +20,9 @@
 
 ### 3rd day:
 - Search for the right set of parameters in order to reproduce the paper results.
+
+
+## Results
+
+![Speed comparison between explicit loops and the convolution method.](https://github.com/phydev/ProstProject/blob/master/compare_speed/speed_comp.png)
+
