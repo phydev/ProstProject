@@ -35,6 +35,6 @@
 
 
 ## Results
-<img src="/data/result_comp.png" width="400" height="400">
-<img src="/data/speed_comp.png" width="400" height="400">
+<img src="https://phydev.github.io/ProstProject/data/speed_comp.png" width="400" height="400">
+<img src="https://phydev.github.io/ProstProject/data/speed_comp.png" width="400" height="400">
 
