@@ -6,7 +6,16 @@
 **Research team**: Oliver, Hygor, Diana, Carlos, Milan, Mauricio & Rui.
 
 ## Files:
-- src/main.py - full numpy/scipy implementation
+- src/  ~ source files
+  - ProstProject.py  ~ full numpy/scipy implementation
+  - src/loopimp.py  ~ explicit loop implementation
+- notebooks/ ~ jupyter notebooks
+  - compare_speed.ipynb ~ comparing the computational time between the convolution method and exlicit loops
+  - parvariation.ipynb ~ implementation with OpenCV convolution 
+  - simulation_init_par.ipynb ~ simulation with the appropriate set of parameters
+- data/ ~ graphs & data files
+  - result_comp.png ~ accuracy comparison between the convolution method & explicit loops
+  - speed_comp.png ~ computational efficiency
 
 ## Logbook
 
@@ -19,6 +28,9 @@
 - Implemented the complete model including the nutrient field.
 
 ### 3rd day:
+- Meeting for discussions about the preliminary results.
+
+### 4th day:
 - Search for the right set of parameters in order to reproduce the paper results.
 
 
