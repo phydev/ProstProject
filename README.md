@@ -6,16 +6,16 @@
 **Research team**: Oliver, Hygor, Diana, Carlos, Milan, Mauricio & Rui.
 
 ## Files:
-- src/  ~ source files
-  - ProstProject.py  ~ full numpy/scipy implementation
-  - src/loopimp.py  ~ explicit loop implementation
-- notebooks/ ~ jupyter notebooks
-  - compare_speed.ipynb ~ comparing the computational time between the convolution method and exlicit loops
-  - parvariation.ipynb ~ implementation with OpenCV convolution 
-  - simulation_init_par.ipynb ~ simulation with the appropriate set of parameters
-- data/ ~ graphs & data files
-  - result_comp.png ~ accuracy comparison between the convolution method & explicit loops
-  - speed_comp.png ~ computational efficiency
+- src/  ~ *source files*
+  - ProstProject.py  ~ *full numpy/scipy implementation*
+  - src/loopimp.py  ~ *explicit loop implementation*
+- notebooks/ ~ *jupyter notebooks*
+  - compare_speed.ipynb ~ *comparing the computational time between the convolution method and exlicit loops*
+  - parvariation.ipynb ~ *implementation with OpenCV convolution *
+  - simulation_init_par.ipynb ~ *simulation with the appropriate set of parameters*
+- data/ ~ *graphs & data files*
+  - result_comp.png ~ *accuracy comparison between the convolution method & explicit loops*
+  - speed_comp.png ~ *computational efficiency*
 
 ## Logbook
 
@@ -36,5 +36,7 @@
 
 ## Results
 
-![Speed comparison between explicit loops and the convolution method.](https://github.com/phydev/ProstProject/blob/master/data/speed_comp.png)
+![Comparison between the convolution method and explicit loops](https://github.com/phydev/ProstProject/blob/master/data/result_comp.png | width=100)
+
+![Speed comparison between explicit loops and the convolution method.](https://github.com/phydev/ProstProject/blob/master/data/speed_comp.png | width=100)
 
