@@ -35,8 +35,6 @@
 
 
 ## Results
-
-![Comparison between the convolution method and explicit loops](https://github.com/phydev/ProstProject/blob/master/data/result_comp.png | width=100)
-
-![Speed comparison between explicit loops and the convolution method.](https://github.com/phydev/ProstProject/blob/master/data/speed_comp.png | width=100)
+<img src="https://github.com/phydev/ProstProject/blob/master/data/result_comp.png" width="400" height="400">
+<img src="https://github.com/phydev/ProstProject/blob/master/data/speed_comp.png" width="400" height="400">
 
