@@ -1,4 +1,4 @@
-# ProstProject
+# About
 ## Summer School in Computational Biology @ UC 
 
 *Modelling prostate cancer growth using a phase-field model.*
