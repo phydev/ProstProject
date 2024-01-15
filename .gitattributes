@@ -1,0 +1,2 @@
+# exclude jupyter notebooks from linguist analysis
+notebooks/* linguist-generated=true
